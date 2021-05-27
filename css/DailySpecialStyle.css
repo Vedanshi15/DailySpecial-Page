@@ -227,14 +227,23 @@ padding: 1.75em; /**28px**/
   #main-menu {
     top:130px;
   }
+  #sub-menu {
+    padding:5em;
+  }
+  #sub-menu li{
+    padding-bottom:1em;
+  }
 }
 @media screen and (max-width:768px) {
- 
+  #section-one {  
+    height:850px;
+  }
   #section-div1 {	
     width:100%;	 
   }
   #section-div2 {	
-	width:100%;	   
+	width:100%;
+    padding-bottom:5em;	
   }
  
 }

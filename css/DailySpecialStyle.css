@@ -215,22 +215,26 @@ padding: 1.75em; /**28px**/
   text-decoration:none;
 }
 /* MEDIA QUERIES */
-/* Tablet layout */
-@media screen and (max-width:768px) {
+@media screen and (max-width:1100px) {
   #header {
     height:400px;
   }
+  #main-menu li {
+    display:block;
+    padding-top:1em;
+	padding-right:15em;
+  }
+  #main-menu {
+    top:130px;
+  }
+}
+@media screen and (max-width:768px) {
+ 
   #section-div1 {	
     width:100%;	 
   }
   #section-div2 {	
 	width:100%;	   
   }
-  #main-menu li {
-    display:block;
-    padding:0.5em 1em;
-  }
-  #main-menu {
-    top:130px;
-  }
+ 
 }
